@@ -4,6 +4,12 @@
 
   (paper "A3")
 
+  (title_block
+    (title "GrassiOsc")
+    (date "2022-08-03")
+    (rev "0")
+  )
+
   (lib_symbols
     (symbol "4xxx:40106" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 1.27 0)
@@ -4456,7 +4462,7 @@
     (pin "TN" (uuid 0f81e0e9-a40c-4da2-9516-79ea94f37c46))
   )
 
-  (symbol (lib_id "Amplifier_Operational:TL074") (at 345.44 64.77 0) (unit 2)
+  (symbol (lib_id "Amplifier_Operational:TL074") (at 345.44 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 15b1427e-5249-44eb-833c-0af53cd3b214)
     (property "Reference" "U6" (id 0) (at 345.44 54.61 0))
@@ -4561,12 +4567,12 @@
     (pin "2" (uuid ca7e3da2-29bd-49de-a9ae-bc7594ea725f))
   )
 
-  (symbol (lib_id "4xxx:40106") (at 104.14 77.47 0) (unit 1)
+  (symbol (lib_id "4xxx:40106") (at 104.14 77.47 0) (unit 3)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1962b2f5-e34e-4c39-9474-fc3de106f88b)
     (property "Reference" "U2" (id 0) (at 104.14 68.58 0))
-    (property "Value" "40106" (id 1) (at 104.14 71.12 0))
-    (property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket" (id 2) (at 104.14 77.47 0)
+    (property "Value" "" (id 1) (at 104.14 71.12 0))
+    (property "Footprint" "" (id 2) (at 104.14 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" (id 3) (at 104.14 77.47 0)
@@ -4671,7 +4677,7 @@
     (pin "1" (uuid 31bffcfe-5196-4344-931b-13a71cb3544f))
   )
 
-  (symbol (lib_id "4xxx:4066") (at 190.5 78.74 0) (unit 1)
+  (symbol (lib_id "4xxx:4066") (at 190.5 78.74 0) (unit 2)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1d6db20e-05e7-4d72-ab75-12c27a603259)
     (property "Reference" "U3" (id 0) (at 190.5 83.82 0))
@@ -5148,7 +5154,7 @@
     (pin "2" (uuid e1cdeb56-1db0-456a-9bd8-60f63304f71b))
   )
 
-  (symbol (lib_id "Amplifier_Operational:TL074") (at 280.67 34.29 0) (unit 1)
+  (symbol (lib_id "Amplifier_Operational:TL074") (at 280.67 34.29 0) (unit 2)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3e69742e-930a-447e-a7dd-f758434644fe)
     (property "Reference" "U6" (id 0) (at 280.67 24.13 0))
@@ -5452,7 +5458,7 @@
   (symbol (lib_id "power:+9V") (at 309.88 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 51aca591-1051-4cfa-9b3d-fa41d02ea89d)
-    (property "Reference" "#PWR?" (id 0) (at 309.88 86.36 0)
+    (property "Reference" "#PWR0101" (id 0) (at 309.88 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (id 1) (at 309.88 77.47 0))
@@ -5465,7 +5471,7 @@
     (pin "1" (uuid 98e3a82a-4e69-40aa-836c-ba7089edc682))
   )
 
-  (symbol (lib_id "Amplifier_Operational:TL074") (at 134.62 80.01 0) (unit 2)
+  (symbol (lib_id "Amplifier_Operational:TL074") (at 134.62 80.01 0) (unit 3)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 52513447-e155-4700-9716-cfa4afb86ea8)
     (property "Reference" "U4" (id 0) (at 134.62 69.85 0))
@@ -5713,7 +5719,7 @@
     (pin "2" (uuid 9ff43b22-6aeb-489c-b83d-31a14381de90))
   )
 
-  (symbol (lib_id "Amplifier_Operational:TL074") (at 173.99 34.29 0) (unit 1)
+  (symbol (lib_id "Amplifier_Operational:TL074") (at 173.99 34.29 0) (unit 4)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 607bda0f-4cf4-4402-8aca-ec967ce5da91)
     (property "Reference" "U4" (id 0) (at 173.99 24.13 0))
@@ -6015,7 +6021,7 @@
     (pin "1" (uuid 367202ea-d14c-47e5-9679-9c0b7c6fb0d9))
   )
 
-  (symbol (lib_id "4xxx:4066") (at 190.5 236.22 0) (unit 3)
+  (symbol (lib_id "4xxx:4066") (at 190.5 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 71eb6575-d449-444e-a97d-b9b64fe5d264)
     (property "Reference" "U3" (id 0) (at 190.5 241.3 0))
@@ -6077,12 +6083,12 @@
     (pin "2" (uuid c1ecaa7f-2af1-4d55-bcc3-957fad9aabd0))
   )
 
-  (symbol (lib_id "4xxx:40106") (at 104.14 232.41 0) (unit 5)
+  (symbol (lib_id "4xxx:40106") (at 104.14 232.41 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 78d5587e-2f6d-4a9b-8df1-525ba9138004)
     (property "Reference" "U2" (id 0) (at 104.14 223.52 0))
-    (property "Value" "40106" (id 1) (at 104.14 226.06 0))
-    (property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket" (id 2) (at 104.14 232.41 0)
+    (property "Value" "" (id 1) (at 104.14 226.06 0))
+    (property "Footprint" "" (id 2) (at 104.14 232.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" (id 3) (at 104.14 232.41 0)
@@ -6227,7 +6233,7 @@
     (pin "1" (uuid 243ca71c-31ba-4d35-aa47-c8fd719b74e2))
   )
 
-  (symbol (lib_id "4xxx:4066") (at 190.5 158.75 0) (unit 2)
+  (symbol (lib_id "4xxx:4066") (at 190.5 158.75 0) (unit 3)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 816f0c90-b311-464c-b671-acd43458f89e)
     (property "Reference" "U3" (id 0) (at 190.5 163.83 0))
@@ -6612,7 +6618,7 @@
     (pin "1" (uuid 77d0ce4d-a12c-4e3d-b872-f8dd23fc0e7a))
   )
 
-  (symbol (lib_id "Amplifier_Operational:TL074") (at 345.44 90.17 0) (unit 3)
+  (symbol (lib_id "Amplifier_Operational:TL074") (at 345.44 90.17 0) (unit 4)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9ad5f7ee-9d0a-4363-803a-3261033b812f)
     (property "Reference" "U6" (id 0) (at 345.44 80.01 0))
@@ -6678,7 +6684,7 @@
   (symbol (lib_id "power:+9V") (at 309.88 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9e70e958-7937-427c-8718-ac822fec42a0)
-    (property "Reference" "#PWR?" (id 0) (at 309.88 113.03 0)
+    (property "Reference" "#PWR0103" (id 0) (at 309.88 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (id 1) (at 309.88 104.14 0))
@@ -6757,7 +6763,7 @@
     (pin "1" (uuid c56efc35-e69a-43d2-9c59-f20a402c1812))
   )
 
-  (symbol (lib_id "Amplifier_Operational:TL074") (at 134.62 234.95 0) (unit 4)
+  (symbol (lib_id "Amplifier_Operational:TL074") (at 134.62 234.95 0) (unit 2)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a56e7d32-fd55-481f-9fae-b19dac81d44d)
     (property "Reference" "U4" (id 0) (at 134.62 224.79 0))
@@ -7071,10 +7077,10 @@
   (symbol (lib_id "power:+9V") (at 309.88 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ba6f7dec-bb28-49f5-af18-02428007dbee)
-    (property "Reference" "#PWR?" (id 0) (at 309.88 60.96 0)
+    (property "Reference" "#PWR0102" (id 0) (at 309.88 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "" (id 1) (at 309.88 52.07 0))
+    (property "Value" "+9V" (id 1) (at 309.88 52.07 0))
     (property "Footprint" "" (id 2) (at 309.88 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -7334,12 +7340,12 @@
     (pin "2" (uuid 181d7b74-c817-4928-83f4-290437364d74))
   )
 
-  (symbol (lib_id "4xxx:40106") (at 151.13 157.48 0) (unit 4)
+  (symbol (lib_id "4xxx:40106") (at 151.13 157.48 0) (unit 6)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c939261b-d0c5-448e-8cbf-baf3f3daa97b)
     (property "Reference" "U2" (id 0) (at 151.13 148.59 0))
-    (property "Value" "40106" (id 1) (at 151.13 151.13 0))
-    (property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket" (id 2) (at 151.13 157.48 0)
+    (property "Value" "" (id 1) (at 151.13 151.13 0))
+    (property "Footprint" "" (id 2) (at 151.13 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" (id 3) (at 151.13 157.48 0)
@@ -7486,12 +7492,12 @@
     (pin "3" (uuid d3b8cdaf-5266-4948-b3ed-cfcf67cd30ca))
   )
 
-  (symbol (lib_id "4xxx:40106") (at 104.14 154.94 0) (unit 3)
+  (symbol (lib_id "4xxx:40106") (at 104.14 154.94 0) (unit 2)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d176d8e2-625e-488e-b60c-ff6122fd9961)
     (property "Reference" "U2" (id 0) (at 104.14 146.05 0))
-    (property "Value" "40106" (id 1) (at 104.14 148.59 0))
-    (property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket" (id 2) (at 104.14 154.94 0)
+    (property "Value" "" (id 1) (at 104.14 148.59 0))
+    (property "Footprint" "" (id 2) (at 104.14 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" (id 3) (at 104.14 154.94 0)
@@ -7513,12 +7519,12 @@
     (pin "7" (uuid e300709f-6c72-488d-a598-efcbd6d3af56))
   )
 
-  (symbol (lib_id "4xxx:40106") (at 151.13 234.95 0) (unit 6)
+  (symbol (lib_id "4xxx:40106") (at 151.13 234.95 0) (unit 5)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d1f012ae-ae34-4a81-b35c-716034b24dae)
     (property "Reference" "U2" (id 0) (at 151.13 226.06 0))
-    (property "Value" "40106" (id 1) (at 151.13 228.6 0))
-    (property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket" (id 2) (at 151.13 234.95 0)
+    (property "Value" "" (id 1) (at 151.13 228.6 0))
+    (property "Footprint" "" (id 2) (at 151.13 234.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" (id 3) (at 151.13 234.95 0)
@@ -7675,8 +7681,8 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ddfd07ca-a1f8-48d3-8714-b14e59c94c4c)
     (property "Reference" "U2" (id 0) (at 92.71 24.13 0))
-    (property "Value" "40106" (id 1) (at 92.71 26.67 0))
-    (property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket" (id 2) (at 92.71 33.02 0)
+    (property "Value" "" (id 1) (at 92.71 26.67 0))
+    (property "Footprint" "" (id 2) (at 92.71 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" (id 3) (at 92.71 33.02 0)
@@ -7698,7 +7704,7 @@
     (pin "7" (uuid e300709f-6c72-488d-a598-efcbd6d3af57))
   )
 
-  (symbol (lib_id "Amplifier_Operational:TL074") (at 345.44 116.84 0) (unit 4)
+  (symbol (lib_id "Amplifier_Operational:TL074") (at 345.44 116.84 0) (unit 3)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid decf7c3b-b619-4c1a-982b-4a3ef584042d)
     (property "Reference" "U6" (id 0) (at 345.44 106.68 0))
@@ -7877,7 +7883,7 @@
     (pin "2" (uuid 0e5f9675-3f2c-439c-af55-53f87df48771))
   )
 
-  (symbol (lib_id "Amplifier_Operational:TL074") (at 134.62 157.48 0) (unit 3)
+  (symbol (lib_id "Amplifier_Operational:TL074") (at 134.62 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ed5fc68c-66ac-4b79-b437-da5a5c6c8fde)
     (property "Reference" "U4" (id 0) (at 134.62 147.32 0))
@@ -7940,12 +7946,12 @@
     (pin "1" (uuid 0f48419a-c2c8-4aa8-97b7-71e3f2aec018))
   )
 
-  (symbol (lib_id "4xxx:40106") (at 151.13 80.01 0) (unit 2)
+  (symbol (lib_id "4xxx:40106") (at 151.13 80.01 0) (unit 4)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid efaca796-94b9-4ec5-9f71-b5ec23565dd7)
     (property "Reference" "U2" (id 0) (at 151.13 71.12 0))
-    (property "Value" "40106" (id 1) (at 151.13 73.66 0))
-    (property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket" (id 2) (at 151.13 80.01 0)
+    (property "Value" "" (id 1) (at 151.13 73.66 0))
+    (property "Footprint" "" (id 2) (at 151.13 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" (id 3) (at 151.13 80.01 0)
@@ -8378,13 +8384,13 @@
       (reference "#PWR074") (unit 1) (value "GND") (footprint "")
     )
     (path "/51aca591-1051-4cfa-9b3d-fa41d02ea89d"
-      (reference "#PWR?") (unit 1) (value "+9V") (footprint "")
-    )
-    (path "/9e70e958-7937-427c-8718-ac822fec42a0"
-      (reference "#PWR?") (unit 1) (value "+9V") (footprint "")
+      (reference "#PWR0101") (unit 1) (value "+9V") (footprint "")
     )
     (path "/ba6f7dec-bb28-49f5-af18-02428007dbee"
-      (reference "#PWR?") (unit 1) (value "+9V") (footprint "")
+      (reference "#PWR0102") (unit 1) (value "+9V") (footprint "")
+    )
+    (path "/9e70e958-7937-427c-8718-ac822fec42a0"
+      (reference "#PWR0103") (unit 1) (value "+9V") (footprint "")
     )
     (path "/4ccb8afd-a54c-4e3a-9757-a5145d9fbb87"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm")
@@ -8743,34 +8749,34 @@
     (path "/10c75233-be4f-4b25-8e64-9c3312fcda11"
       (reference "U1") (unit 1) (value "L78L09_TO92") (footprint "Package_TO_SOT_THT:TO-92_Inline")
     )
-    (path "/1962b2f5-e34e-4c39-9474-fc3de106f88b"
+    (path "/78d5587e-2f6d-4a9b-8df1-525ba9138004"
       (reference "U2") (unit 1) (value "40106") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
-    (path "/efaca796-94b9-4ec5-9f71-b5ec23565dd7"
+    (path "/d176d8e2-625e-488e-b60c-ff6122fd9961"
       (reference "U2") (unit 2) (value "40106") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
-    (path "/d176d8e2-625e-488e-b60c-ff6122fd9961"
+    (path "/1962b2f5-e34e-4c39-9474-fc3de106f88b"
       (reference "U2") (unit 3) (value "40106") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
-    (path "/c939261b-d0c5-448e-8cbf-baf3f3daa97b"
+    (path "/efaca796-94b9-4ec5-9f71-b5ec23565dd7"
       (reference "U2") (unit 4) (value "40106") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
-    (path "/78d5587e-2f6d-4a9b-8df1-525ba9138004"
+    (path "/d1f012ae-ae34-4a81-b35c-716034b24dae"
       (reference "U2") (unit 5) (value "40106") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
-    (path "/d1f012ae-ae34-4a81-b35c-716034b24dae"
+    (path "/c939261b-d0c5-448e-8cbf-baf3f3daa97b"
       (reference "U2") (unit 6) (value "40106") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/ddfd07ca-a1f8-48d3-8714-b14e59c94c4c"
       (reference "U2") (unit 7) (value "40106") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
-    (path "/1d6db20e-05e7-4d72-ab75-12c27a603259"
+    (path "/71eb6575-d449-444e-a97d-b9b64fe5d264"
       (reference "U3") (unit 1) (value "4066") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
-    (path "/816f0c90-b311-464c-b671-acd43458f89e"
+    (path "/1d6db20e-05e7-4d72-ab75-12c27a603259"
       (reference "U3") (unit 2) (value "4066") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
-    (path "/71eb6575-d449-444e-a97d-b9b64fe5d264"
+    (path "/816f0c90-b311-464c-b671-acd43458f89e"
       (reference "U3") (unit 3) (value "4066") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/8bfc5fcf-708f-45c0-bee8-bef3b09b83f6"
@@ -8779,16 +8785,16 @@
     (path "/6b6be34a-5f99-4f16-b23c-6db3722e59dd"
       (reference "U3") (unit 5) (value "4066") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
-    (path "/607bda0f-4cf4-4402-8aca-ec967ce5da91"
+    (path "/ed5fc68c-66ac-4b79-b437-da5a5c6c8fde"
       (reference "U4") (unit 1) (value "TL074") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
-    (path "/52513447-e155-4700-9716-cfa4afb86ea8"
+    (path "/a56e7d32-fd55-481f-9fae-b19dac81d44d"
       (reference "U4") (unit 2) (value "TL074") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
-    (path "/ed5fc68c-66ac-4b79-b437-da5a5c6c8fde"
+    (path "/52513447-e155-4700-9716-cfa4afb86ea8"
       (reference "U4") (unit 3) (value "TL074") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
-    (path "/a56e7d32-fd55-481f-9fae-b19dac81d44d"
+    (path "/607bda0f-4cf4-4402-8aca-ec967ce5da91"
       (reference "U4") (unit 4) (value "TL074") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/d7447ed2-949b-48aa-9f43-98a2009463e9"
@@ -8809,16 +8815,16 @@
     (path "/a0b437ba-ac7c-4880-942f-8135680d3546"
       (reference "U5") (unit 5) (value "TL074") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
-    (path "/3e69742e-930a-447e-a7dd-f758434644fe"
+    (path "/15b1427e-5249-44eb-833c-0af53cd3b214"
       (reference "U6") (unit 1) (value "TL074") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
-    (path "/15b1427e-5249-44eb-833c-0af53cd3b214"
+    (path "/3e69742e-930a-447e-a7dd-f758434644fe"
       (reference "U6") (unit 2) (value "TL074") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
-    (path "/9ad5f7ee-9d0a-4363-803a-3261033b812f"
+    (path "/decf7c3b-b619-4c1a-982b-4a3ef584042d"
       (reference "U6") (unit 3) (value "TL074") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
-    (path "/decf7c3b-b619-4c1a-982b-4a3ef584042d"
+    (path "/9ad5f7ee-9d0a-4363-803a-3261033b812f"
       (reference "U6") (unit 4) (value "TL074") (footprint "Package_DIP:DIP-14_W7.62mm_Socket")
     )
     (path "/9701631f-e885-4d4b-b8e8-e54cb4ae715d"
