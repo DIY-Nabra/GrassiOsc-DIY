@@ -1,3 +1,11 @@
+# GrassiOsc Bill of Materials (BOM)
+
+To build just follow the order in the BOM.
+
+When soldering the ICs (U2->U8), solder in the equivalent sockets instead.
+
+Solder the panel components (jacks and pots) last, on the opposite side of the board to the other parts.
+
 | Reference				| Quantity	| Part	| Notes |
 | --------------------------------------- | -------------- | ------- | -------- |
 | R15,R23,R34,R41,R51,R54			|6	| 100R	| |
@@ -10,7 +18,7 @@
 | R14,R33,R50				|3	| 220k	| |
 | R10,R11,R29,R30,R46,R47			|6	| 2.2M	| |
 | R1,R2,R4,R5				|4	| 47k	| |
-| R16,R17,R18,R19,R35,R36,R38,R39,R56,R57,R59,R60	 12	| Choose your own (see build note)	| DAC resistors |
+| R16,R17,R18,R19,R35,R36,R38,R39,R56,R57,R59,R60	| 12	| Choose your own (see build note)	| DAC resistors |
 | R8,R27,R44				|3	| Choose your own (see build note)	| DAC amplifier resistors |
 | D1					|1	| 1N4001	| Reverse polarity protection diode |
 | D3,D6,D9				|3	| 3mm LED	| Standard brightness |
