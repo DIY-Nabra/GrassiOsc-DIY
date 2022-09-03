@@ -10,7 +10,7 @@ Solder the panel components (jacks and pots) last, on the opposite side of the b
 | --------------------------------------- | -------------- | ------- | -------- |
 | R15,R23,R34,R41,R51,R54			|6	| 100R	| |
 | R9,R28,R45				|3	| 1k	| LED protection resistors |
-| R20,R21,R37,R40,R52,R53			|6	| 10k	| |
+| R20,R21,R37,R40,R52,R53			|6	| 1k or 10k	| Output resistors |
 | R3,R7,R22,R24,R26,R42,R55		|7	| 100k	| |
 | R12,R13,R31,R32,R48,R49			|3	| 1M	| |
 | R25,R43,R58				|3	| 2.2k	| |
